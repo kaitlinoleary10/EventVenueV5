@@ -27,7 +27,7 @@ function PurchaseConfirmation() {
         Event: {showName.replace(/-/g, ' ')} </h3>
 
         <h3 style={{ textTransform: 'capitalize', textAlign: 'left' }}>
-        Event: {eventDate} </h3>
+        Date: {eventDate} </h3>
             <p style={{ marginLeft: '20px' }}><strong>Total Tickets: {totalTickets}</strong></p>
             <p style={{ marginLeft: '20px' }}>Box Tickets: {boxTickets}</p>
             <p style={{ marginLeft: '20px' }}>Orchestra Tickets: {orchestraTickets}</p>
