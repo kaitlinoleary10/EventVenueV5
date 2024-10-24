@@ -95,7 +95,7 @@ function Cart() {
         Event: {eventName.replace(/-/g, ' ')} </h3>
 
         <h3 style={{ textTransform: 'capitalize', textAlign: 'left' }}>
-        Event: {eventDate} </h3>
+        Date: {eventDate} </h3>
     
 
       {cart ? (

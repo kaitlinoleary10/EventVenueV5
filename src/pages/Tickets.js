@@ -44,7 +44,7 @@ function Tickets() {
         Event: {eventName.replace(/-/g, ' ')} </h3>
 
         <h3 style={{ textTransform: 'capitalize', textAlign: 'left' }}>
-        Event: {eventDate} </h3>
+        Date: {eventDate} </h3>
     
       <div className="ticket-option">
         <label>Box Tickets ($300.00 each):</label>
